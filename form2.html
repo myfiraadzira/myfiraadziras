@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pemesanan</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="section-title">
+        <h1>Form Pemesanan</h1>
+        <p>Silakan isi data pemesanan Anda</p>
+    </div>
+
+
+    <div class="form-box">
+
+        <form>
+
+            <div class="form-group">
+
+                <label>Nama Lengkap</label>
+
+                <input
+                    type="text"
+                    placeholder="Masukkan nama lengkap"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Nomor Telepon</label>
+
+                <input
+                    type="tel"
+                    placeholder="Masukkan nomor telepon"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Pilih Produk</label>
+
+                <select required>
+
+                    <option value="">
+                        -- Pilih Produk --
+                    </option>
+
+                    <option>Semen</option>
+                    <option>Pasir Bangunan</option>
+                    <option>Batu Bata Merah</option>
+                    <option>Cat Tembok</option>
+                    <option>Seng</option>
+                    <option>Batu Split</option>
+                    <option>Kayu</option>
+                    <option>Asbes</option>
+                    <option>Keramik</option>
+                    <option>Paralon</option>
+                    <option>Triplek</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Jumlah</label>
+
+                <input
+                    type="number"
+                    placeholder="Masukkan jumlah"
+                    min="1"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Alamat Pengiriman</label>
+
+                <textarea
+                    placeholder="Masukkan alamat lengkap">
+                </textarea>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Catatan</label>
+
+                <textarea
+                    placeholder="Tambahkan catatan jika diperlukan">
+                </textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn-submit">
+
+                Kirim Pesanan
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
